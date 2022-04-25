@@ -69,7 +69,7 @@ def create_a_dataframe(csv_name, animelinks):
 
 def anime_scrape():
     #open a csv file with links of animes
-    input_file = "2500test.csv"
+    input_file = "animelinks.csv"
     uwu = pd.read_csv(input_file)
 
     #hides chrome
